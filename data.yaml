@@ -1,0 +1,12 @@
+train: C:/Urban-Risk-Surveillance/fire_data/train/images
+val: C:/Urban-Risk-Surveillance/fire_data/valid/images
+test: C:/Urban-Risk-Surveillance/fire_data/test/images
+
+nc: 1
+names: ['fire']
+roboflow:
+  workspace: fire-detection
+  project: fire-detection-data-pre
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fire-detection/fire-detection-data-pre/dataset/4
